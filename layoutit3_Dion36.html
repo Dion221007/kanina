@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Website Layout</title>
+<style>
+* {
+box-sizing: border-box;
+}
+body {
+margin: 0;
+}
+/* Style untuk header */
+.header {
+color: red;
+background-color: khaki;
+padding: 25px;
+text-align: center;
+}
+/* Style untuk menu navigasi atas/top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: tomato;
+}
+/* Style untuk link-link topnav/topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* Mengubah warna link pada saat mouse di link (hover) */
+.topnav a:hover {
+background-color: lemonchiffon;
+color: orange;
+}
+/* Membuat tiga kolom yang tidak sama di mana masing-masing kolom bersifat “float” terhadap yang
+lainnya */
+.column {
+float: left;
+padding: 10px;
+}
+/* Left and right column */
+.column.side {
+width: 25%;
+background-color : yellow;
+}
+/* Middle column */
+.column.middle {
+width: 50%;
+background-color : lightyellow;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/* Style untuk footer */
+.footer {
+background-color: OrangeRed;
+color: yellow;
+padding: 10px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<!-- class bernama header -->
+<div class="header">
+<h1>Web Pembelajaran</h1>
+<p>Ubah ukuran window browser untuk melihat efek responsifnya.</p>
+</div>
+<!-- class bernama header -->
+<div class="topnav">
+<a href="layoutit3_Dion36.html">Home</a>
+<a href="Informatika.html">Informatika</a>
+<a href="index2.malvinlionard.17.115.html">Biologi</a>
+<a href="Biodatadiri_Dion Jovan Tanjaya_INF3_2 .html">Biodata</a> 
+</div>
+<!-- class bernama row -->
+<div class="row">
+<!-- class bernama column side -->
+<div class="column side">
+</div>
+<!-- class bernama column side -->
+<div class="column middle">
+<h2>Main Content</h2>
+<p>Web ini bertujuan untuk memberi dan menyebarkan pengetahuan mengenai berbagai mata pelajaran 
+dengan memberikan akses gratis kepada siapapun yang ingin menambah pengetahuannya.Dengan adanya website ini,
+pembuat beharap untuk dapat turut menjadi media dan sarana pengetahuan modern.</p>
+
+</div>
+<!-- class bernama column side -->
+<div class="column side">
+    <h2>Iklan</h2>
+    <p>Iklan Online Shop.</p>
+    </div>
+    </div>
+    <!-- class bernama footer -->
+    <div class="footer">
+    <p>Footer</p>
+    </div>
+    </body>
+    </html>
